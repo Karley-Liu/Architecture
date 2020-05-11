@@ -1,0 +1,89 @@
+.left-top{
+  background-color:lightgrey;
+  color:white;
+  width:50px;
+  height:20px;
+  border-radius:5px;
+}
+.logo{
+  /* position:relative;
+  top:-120px; */
+  width:100px;
+  height:100px;
+}
+.name{
+  font-size:20px;
+  font-weight:bold;
+  color:black;
+}
+.detail2{
+  position:relative;
+  left:110px;
+  top:-120px;
+  color:grey;
+  font-size:12px;
+  column-count: 2;
+  width:700px;
+  line-height:1.9em;
+}
+.control{
+  width:140px !important; 
+  position:relative;
+  left:250px;
+  top:-60px;
+}
+.box{
+  padding: 40px 10px;
+  float:left;
+}
+.avatar{
+  margin-top:10px;
+}
+.panel{
+  height:125px;
+  width:900px;
+  margin-left:20px;
+}
+.content-left{
+  width:17%;
+  margin-right:20px;
+}
+
+.img{
+  height:125px;
+  width:190px;
+}
+.detail3{
+  position:relative;
+  left:200px;
+  top:-120px;
+  width:700px;
+}
+.details p{
+  line-height:1.9em;
+  color:grey;
+  font-size:12px;
+  position:relative;
+  left:200px;
+  top:-120px;
+  width:120px;
+  padding-right:0px;
+}
+.usercontrol{
+position: relative;
+top:-70px;
+left:190px;
+width: 140px !important;
+}
+.projectcontrol{
+  position: relative;
+top:-170px;
+left:700px;
+width: 140px !important;
+}
+.buildingcontrol{
+  position: relative;
+  top:-210px;
+  left:700px;
+  width: 140px !important;
+}

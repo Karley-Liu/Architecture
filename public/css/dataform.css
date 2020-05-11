@@ -1,0 +1,25 @@
+.body{
+    background: #f9f9f9;
+    font-family: "Microsoft YaHei";
+}
+.square{
+	margin:0px 200px 30px;
+	padding:50px;
+	background-color: white;
+}
+.footer{
+	clear: both;
+}
+.intl-tel-input{
+	display: block !important;
+}
+#tagg{
+	margin-top:10px;
+	margin-right:10px;
+}
+
+.panel{
+	width:80%;
+	margin:0 auto;
+	padding: 50px 100px;
+}

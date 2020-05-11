@@ -1,0 +1,130 @@
+/*配色方案:
+	背景:rgb(224,287,254),rgb(255,239,255)
+	按钮:rgb(181,154,254),rgb(245,189,253)*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height: 100vh;
+    /*background: url("../images/userbg.gif") no-repeat center/cover*/
+}
+
+.panel{
+    /* 使container居中 */
+    position: absolute;
+    left:50%;
+    top: 15%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    /* height:auto; */
+    background-color: transparent !important;
+    /* border:none; */
+    /* box-shadow: none; */
+    /* border-radius:5px; */
+}
+
+.turn{
+    
+    margin-top:50px;
+}
+
+.turn span{
+    color:white;
+}
+
+.form-group{
+    width:90%;
+    margin:0 auto;
+    /* border:1px solid red; */
+}
+.form-group label{
+    color:white;
+}
+
+.btn{
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    border-radius:0px;
+    padding:10px 0px;
+    /* border:1px solid red; */
+}
+
+.btn:hover{
+    background-color: rgba(0,0,0,0.7);
+    color:white !important;
+}
+
+.container .front,.container .back{
+    /* 使front和back重叠 */
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+
+    /* background-color: rgba(0,0,0,0.5); */
+    /*box-shadow: 6px 6px 14px #01517d,inset 0 0 15px #88daf7;*/
+
+    display: flex;
+    flex-direction: column;
+
+    transition: .5s cubic-bezier(0.48,-0.56, 0.51, 1.67);
+}
+
+.container .front{
+    /* 让front显示在前 */
+    z-index: 1;
+}
+
+.turn span{
+	cursor: pointer;
+}
+
+.container .back{
+    transform: rotateY(180deg);
+}
+
+.back.back-turn{
+    transform: rotateY(0deg);
+}
+
+.front.front-turn{
+    z-index: 0;
+    transform: rotateY(-180deg);
+}
+
+.active{
+	font-size:2rem;
+}
+
+.hide{
+	display: hidden;
+}
+
+.upload-wrap{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border:1px solid #2d78f4;
+    border-radius: 3px;
+}
+.upload-wrap .file-ele{
+	position: absolute;
+	top:0;
+	right:0;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+.upload-wrap .file-open{
+	width:auto;
+	height:auto;
+	line-height:30px;
+	text-align: center;
+	padding:2px 5px;
+	color:#fff;
+	background: #3385ff;
+}

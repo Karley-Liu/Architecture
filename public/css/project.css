@@ -1,0 +1,112 @@
+.body{
+    background: #f9f9f9;
+    font-family: "Microsoft YaHei";
+}
+.square{
+	position: absolute;
+	top:120px;
+	left:350px;
+	width:350px;
+	height:80px;
+}
+.square-1{
+	position: absolute;
+	top:0px;
+	left:0px;
+    width: 160px;
+    height: 70px;
+    border: 1px solid #fff;
+}
+.square-2{
+	position: absolute;
+	top:5px;
+	left:5px;
+    width: 160px;
+    height: 70px;
+    border: 1px solid #fff;
+}
+.square-3{
+	position: absolute;
+	top:20px;
+	left:22px;
+	color:white;
+	font-family: "微软雅黑";
+}
+.square-4{
+	position: absolute;
+	left:175px;
+	top:10px;
+}
+.square h5{
+	color:white;
+	margin-top:10px;
+	width:auto;
+}
+#projecting,#projected{
+	transition: all 0.3s;
+	cursor: pointer;
+	-moz-user-select: none;
+}
+#projecting:hover,#projected:hover{
+	font-size:16px;
+}
+.content{
+	min-height:auto;
+}
+.box{
+	position:static;
+	padding:70px 0px;
+	height:auto;
+	width:100%;
+	max-width: 100%;
+}
+#project222{
+	width:80%;
+	column-count: 3;
+}
+#project22{
+	width:80%;
+	margin-top:-185px;
+}
+.program{
+	width:100%;
+	height:auto;
+	background-color:white;
+	padding:20px;
+	margin:10px;
+}
+.program2{
+	width:100%;
+	height:auto;
+	background-color:white;
+	padding:0 0 20px;
+	margin:10px;
+	display: flex; 
+	flex-flow: column wrap;
+  break-inside: avoid;
+}
+.programname{
+ 	color:#666;
+ 	font-size:20px;
+ 	font-weight: bold;
+ }
+.programname2{
+ 	color:#666;
+ 	font-size:20px;
+ 	font-weight: bold;
+ 	margin-top:10px;
+ }
+ .programname:hover{
+ 	color:#028FCC;
+ }
+.programtext{
+	margin-top:70px;
+	font-size:12px;
+	color:#696969;
+}
+.detail{
+	color:#028FCC;
+}
+.footer{
+	clear:both;
+}

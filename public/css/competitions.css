@@ -1,0 +1,60 @@
+.footer{
+	clear: both;
+}
+.body{
+    background: #f9f9f9;
+    font-family: "Microsoft YaHei";
+}
+.square{
+	position: absolute;
+	top:120px;
+	left:350px;
+	width:350px;
+	height:80px;
+}
+.square-1{
+	position: absolute;
+	top:0px;
+	left:0px;
+    width: 170px;
+    height: 70px;
+    border: 1px solid #fff;
+}
+.square-2{
+	position: absolute;
+	top:5px;
+	left:5px;
+    width: 170px;
+    height: 70px;
+    border: 1px solid #fff;
+}
+.square-3{
+	position: absolute;
+	top:20px;
+	left:56px;
+	color:white;
+	font-family: "微软雅黑";
+}
+.content-panel{
+	padding:0px;
+}
+.content-box{
+	padding:15px 30px;
+}
+.content-box p{
+	padding-top:10px;
+}
+.list-p{
+	font-size:12px;
+	color:#a5a5a5;
+	letter-spacing:0.2px;
+}
+a p,a h4{
+	color:#4A4A4A;
+}
+a h4,.cor{
+	font-weight: bold;
+}
+.cor{
+	font-size:13px;
+}

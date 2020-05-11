@@ -1,0 +1,54 @@
+.footer{
+	clear: both;
+}
+.body{
+    background: #f9f9f9;
+    font-family: "Microsoft YaHei";
+}
+.square{
+	position: absolute;
+	top:120px;
+	left:350px;
+	width:350px;
+	height:80px;
+}
+.square-1{
+	position: absolute;
+	top:0px;
+	left:0px;
+    width: 200px;
+    height: 70px;
+    border: 1px solid #fff;
+}
+.square-2{
+	position: absolute;
+	top:5px;
+	left:5px;
+    width: 200px;
+    height: 70px;
+    border: 1px solid #fff;
+}
+.square-3{
+	position: absolute;
+	top:20px;
+	left:50px;
+	color:white;
+	font-family: "微软雅黑";
+}
+.content{
+	width:75%;
+	height:auto;
+	margin:30px auto;
+}
+.panel{
+	float:left;
+	background-color: white;
+	width:31%;
+	margin:0px 10px;
+}
+.title{
+	font-size:16px;
+	font-weight: bold;
+	color:#4A4A4A;
+	padding:15px;
+}
